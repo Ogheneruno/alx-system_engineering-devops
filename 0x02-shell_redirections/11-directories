@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./* -type d -print | wc -l
+for d in */ ; do chmod a+x $d done
